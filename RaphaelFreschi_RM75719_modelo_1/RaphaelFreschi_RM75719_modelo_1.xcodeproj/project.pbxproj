@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC05B9881EAFFED600020769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC05B9871EAFFED600020769 /* main.m */; };
+		AC05B98B1EAFFED600020769 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC05B98A1EAFFED600020769 /* AppDelegate.m */; };
+		AC05B98E1EAFFED600020769 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC05B98D1EAFFED600020769 /* ViewController.m */; };
+		AC05B9911EAFFED600020769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC05B98F1EAFFED600020769 /* Main.storyboard */; };
+		AC05B9931EAFFED600020769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC05B9921EAFFED600020769 /* Assets.xcassets */; };
+		AC05B9961EAFFED600020769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC05B9941EAFFED600020769 /* LaunchScreen.storyboard */; };
+		AC05B99F1EB000D900020769 /* Armamento.m in Sources */ = {isa = PBXBuildFile; fileRef = AC05B99E1EB000D900020769 /* Armamento.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC05B9831EAFFED600020769 /* RaphaelFreschi_RM75719_modelo_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaphaelFreschi_RM75719_modelo_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC05B9871EAFFED600020769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC05B9891EAFFED600020769 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC05B98A1EAFFED600020769 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC05B98C1EAFFED600020769 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC05B98D1EAFFED600020769 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC05B9901EAFFED600020769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC05B9921EAFFED600020769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC05B9951EAFFED600020769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC05B9971EAFFED600020769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC05B99D1EB000D900020769 /* Armamento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Armamento.h; sourceTree = "<group>"; };
+		AC05B99E1EB000D900020769 /* Armamento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Armamento.m; sourceTree = "<group>"; };
+		AC21C91D1EB00A9D00347B53 /* Customizar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customizar.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC05B9801EAFFED600020769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC05B97A1EAFFED600020769 = {
+			isa = PBXGroup;
+			children = (
+				AC05B9851EAFFED600020769 /* RaphaelFreschi_RM75719_modelo_1 */,
+				AC05B9841EAFFED600020769 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC05B9841EAFFED600020769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC05B9831EAFFED600020769 /* RaphaelFreschi_RM75719_modelo_1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC05B9851EAFFED600020769 /* RaphaelFreschi_RM75719_modelo_1 */ = {
+			isa = PBXGroup;
+			children = (
+				AC05B9891EAFFED600020769 /* AppDelegate.h */,
+				AC05B98A1EAFFED600020769 /* AppDelegate.m */,
+				AC05B98C1EAFFED600020769 /* ViewController.h */,
+				AC05B98D1EAFFED600020769 /* ViewController.m */,
+				AC05B98F1EAFFED600020769 /* Main.storyboard */,
+				AC05B99D1EB000D900020769 /* Armamento.h */,
+				AC05B99E1EB000D900020769 /* Armamento.m */,
+				AC21C91D1EB00A9D00347B53 /* Customizar.h */,
+				AC05B9921EAFFED600020769 /* Assets.xcassets */,
+				AC05B9941EAFFED600020769 /* LaunchScreen.storyboard */,
+				AC05B9971EAFFED600020769 /* Info.plist */,
+				AC05B9861EAFFED600020769 /* Supporting Files */,
+			);
+			path = RaphaelFreschi_RM75719_modelo_1;
+			sourceTree = "<group>";
+		};
+		AC05B9861EAFFED600020769 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC05B9871EAFFED600020769 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC05B9821EAFFED600020769 /* RaphaelFreschi_RM75719_modelo_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC05B99A1EAFFED600020769 /* Build configuration list for PBXNativeTarget "RaphaelFreschi_RM75719_modelo_1" */;
+			buildPhases = (
+				AC05B97F1EAFFED600020769 /* Sources */,
+				AC05B9801EAFFED600020769 /* Frameworks */,
+				AC05B9811EAFFED600020769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaphaelFreschi_RM75719_modelo_1;
+			productName = RaphaelFreschi_RM75719_modelo_1;
+			productReference = AC05B9831EAFFED600020769 /* RaphaelFreschi_RM75719_modelo_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC05B97B1EAFFED600020769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Raphael Freschi";
+				TargetAttributes = {
+					AC05B9821EAFFED600020769 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AC05B97E1EAFFED600020769 /* Build configuration list for PBXProject "RaphaelFreschi_RM75719_modelo_1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC05B97A1EAFFED600020769;
+			productRefGroup = AC05B9841EAFFED600020769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC05B9821EAFFED600020769 /* RaphaelFreschi_RM75719_modelo_1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC05B9811EAFFED600020769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC05B9961EAFFED600020769 /* LaunchScreen.storyboard in Resources */,
+				AC05B9931EAFFED600020769 /* Assets.xcassets in Resources */,
+				AC05B9911EAFFED600020769 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC05B97F1EAFFED600020769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC05B98E1EAFFED600020769 /* ViewController.m in Sources */,
+				AC05B98B1EAFFED600020769 /* AppDelegate.m in Sources */,
+				AC05B99F1EB000D900020769 /* Armamento.m in Sources */,
+				AC05B9881EAFFED600020769 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC05B98F1EAFFED600020769 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC05B9901EAFFED600020769 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC05B9941EAFFED600020769 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC05B9951EAFFED600020769 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC05B9981EAFFED600020769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC05B9991EAFFED600020769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC05B99B1EAFFED600020769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RaphaelFreschi_RM75719_modelo_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fiap.RaphaelFreschi-RM75719-modelo-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC05B99C1EAFFED600020769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RaphaelFreschi_RM75719_modelo_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fiap.RaphaelFreschi-RM75719-modelo-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC05B97E1EAFFED600020769 /* Build configuration list for PBXProject "RaphaelFreschi_RM75719_modelo_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC05B9981EAFFED600020769 /* Debug */,
+				AC05B9991EAFFED600020769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC05B99A1EAFFED600020769 /* Build configuration list for PBXNativeTarget "RaphaelFreschi_RM75719_modelo_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC05B99B1EAFFED600020769 /* Debug */,
+				AC05B99C1EAFFED600020769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC05B97B1EAFFED600020769 /* Project object */;
+}
